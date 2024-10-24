@@ -1,0 +1,66 @@
+#heading1{
+    text-align: center;
+    color: red;
+}
+#paragraph1{
+    font-family: "Calibri Light";
+    font-size: 20px;
+
+}
+.one{
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#mydivision{
+    background-color: deepskyblue;
+    margin: 50px;
+    padding: 30px;
+    font-size: large;
+    font-weight: bold;
+}
+#test{
+    background-color: gray;
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    color: white;
+}
+#test p{
+    margin-left: 30px;
+}
+
+#test img{
+    border-radius: 600px;
+    width: 500px;
+    height: 300px
+}
+
+#main{
+    display: flex;
+}
+#advertisement{
+    background-color: deepskyblue;
+    padding: 20px;
+    box-shadow: 8px 4px 8px 4px gray;
+    color: white;
+}
+
+#accounting{
+    background-color: gray;
+    margin-left: 20px;
+    padding: 20px;
+    box-shadow: 8px 4px 8px 4px gray;
+    color: white;
+}
+
+#payment{
+    background-color: darkseagreen;
+    margin-left: 20px;
+    padding: 20px;
+    box-shadow: 8px 4px 8px 4px gray;
+    color: white;
+}
+#advertisement:hover,#accounting:hover,#payment:hover{
+    background-color: lightblue;
+}
